@@ -275,4 +275,5 @@ if __name__ == '__main__':
     run_evaluation(model, args.dataset, dataset, args.result_file,
                    batch_size=args.batch_size,
                    shuffle=args.shuffle,
-                   log_freq=args.log_freq)
+                   log_freq=args.log_freq,
+                   num_workers=args.num_workers)
